@@ -1,0 +1,12 @@
+.eyeball {
+    box-sizing: content-box;
+
+    transform: translate(-50%, -50%);
+    border: 10px solid #333;
+}
+
+.eye:hover .eyeball {
+    transition: all .1s;
+    height: 85px;
+    width: 85px;
+}
